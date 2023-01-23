@@ -1,5 +1,5 @@
 import { Header } from './components/Header';
-import { SumarryTable } from './components/SumarryTable';
+import { SummaryTable } from './components/SumarryTable';
 
 export function App() {
 
@@ -7,7 +7,7 @@ export function App() {
     <div className='w-screen h-screen flex justify-center items-center'>
       <div className='w-full max-w-5xl px-6 flex flex-col gap-16'>
         <Header/>
-        <SumarryTable/>
+        <SummaryTable/>
       </div>
       
     </div>
